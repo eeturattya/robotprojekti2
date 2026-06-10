@@ -1,2 +1,7 @@
-# Project exclude paths
+#ignore local env
 /rf-env/
+
+# Ignore document files
+*.html
+*.xml
+*.txt
