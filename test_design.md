@@ -8,7 +8,6 @@ Strategy
 - Some testcases were left singled out (locked out user) e.g.
 - The amount of 4-6 testcases are covering basic functionalities of the site. The sorting mekanism was left out, but could be added later on.
 - Basic functionality would be: User can sign in and sign out, user can do a purchase from the website. Links to the products are working.
-- 
 
 Test cases (high level)
 - User can log in and log out

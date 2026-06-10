@@ -1,10 +1,8 @@
 Project: (Robot Framework + Browser)
 Command for usage: robot --variable BROWSER:chromium --variable HEADLESS:True smoke.robot
 
-
-
 Summary
-- Robot Framework tests for https://www.saucedemo.com using the Browser library (Playwright).
+- Robot Framework tests for https://www.saucedemo.com using the RobotFramework Browser library 
 
 Prerequisites
 - Python 3.12 (recommended)
@@ -19,8 +17,7 @@ Running tests
 - Run full smoke suite: robot smoke.robot
 - Run legacy/full suite (if present): robot smoke.robot
 - Run a single test by name: robot --test "User can add and remove from cart" smoke.robot
-- Run headless with Chrome (CI-friendly):
-  robot --variable BROWSER:chromium --variable HEADLESS:True smoke.robot
+
 
 Useful CLI variables
 - HEADLESS (true/false) — control headed/headless browser. Default: false
@@ -34,3 +31,4 @@ Notes
 - The locator strategy currently is working, but might be needed tweaking in the long run.
 - There is for some reason slowness in the random selection strategy of the products. This would be a place for improvement to speed up test suite run.
 - I think The Cart persists after reload && User can add and remove from cart is a duplicate test. Should be combined.
+- The Readme should be cleaned up
